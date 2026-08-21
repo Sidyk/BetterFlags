@@ -15,11 +15,7 @@ The native LMU Yellow Flag can cover an entire sector or track. Better Flags det
 - Local Yellow incident detection ahead of the player
 - Double Yellow for clustered incidents
 - Slow-car White Flag detection
-- Native Blue Flag integration
 - Configurable Green at race start and after passing a local Yellow
-- Automatic Private Qualifying detection through the local LMU REST API
-- Built-in update notification
-- Dark, responsive SimHub settings interface
 
 ## Installation
 
