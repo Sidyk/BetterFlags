@@ -25,7 +25,6 @@ The native LMU Yellow Flag can cover an entire sector or track. Better Flags det
 4. If Windows blocks the downloaded file, open **Properties** for the DLL and select **Unblock**.
 5. Start SimHub and enable **Better Flags for LMU** in **Settings > Plugins**.
 
-If upgrading from an older build named `LMUFlags.dll`, remove that old DLL to avoid loading the plugin twice.
 
 No additional libraries are required beyond a normal SimHub installation.
 
