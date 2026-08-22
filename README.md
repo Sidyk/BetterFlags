@@ -2,9 +2,9 @@
 
 A lightweight SimHub plugin that provides reliable, LED-ready flag states for **Le Mans Ultimate**.
 
-**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.2)**
+**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.3)**
 
-Current version: **1.0.2** — [changelog](CHANGELOG.md)
+Current version: **1.0.3** — [changelog](CHANGELOG.md)
 
 ## Why Better Flags?
 
@@ -17,6 +17,7 @@ The native LMU Yellow Flag can cover an entire sector or track. Better Flags det
 - Slow-car White Flag detection
 - Configurable Green at race start and after passing a local Yellow
 - Configurable Double Yellow and expert speed thresholds with safety lock and contextual help
+- Verified `Update & Restart` flow with SHA-256 validation, rollback protection and automatic SimHub restart
 
 ## Installation
 
@@ -28,6 +29,8 @@ The native LMU Yellow Flag can cover an entire sector or track. Better Flags det
 
 
 No additional libraries are required beyond a normal SimHub installation.
+
+Versions 1.0.2 and earlier require one final manual installation of v1.0.3. Starting with v1.0.3, future updates can be installed directly from the plugin using `Update & Restart`.
 
 ## SimHub properties
 

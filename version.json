@@ -1,5 +1,6 @@
 {
-  "version": "1.0.2",
-  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.2",
-  "changelog": "Help tooltips now appear immediately when hovering over an expert setting question mark."
+  "version": "1.0.3",
+  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.3",
+  "sha256": "D433FC2CBD3ACDD32F252BCEAF62A81042E8EEA117CE9FF5A744496F265AF81D",
+  "changelog": "Automatic verified Update & Restart support with an embedded updater, rollback protection, and manual-download fallback."
 }

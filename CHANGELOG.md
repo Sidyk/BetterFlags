@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.3 — 2026-08-22
+
+- Replaced the manual Download action with `Update & Restart` when the update manifest includes SHA-256.
+- Added asynchronous download and checksum/assembly-version verification before installation.
+- Added an embedded elevated updater that closes SimHub, replaces the plugin with rollback protection, and restarts SimHub.
+- Retained manual download as a safe fallback for manifests without a valid checksum.
+
 ## 1.0.2 — 2026-08-22
 
 - Expert-setting help tooltips now appear immediately on hover.
