@@ -4,7 +4,7 @@ A lightweight SimHub plugin that provides reliable, LED-ready flag states for **
 
 **[Download BetterFlags.dll](https://github.com/Sidyk/BetterFlags/raw/refs/heads/main/BetterFlags.dll)**
 
-Current version: **1.0.0**
+Current version: **1.0.1** — [changelog](CHANGELOG.md)
 
 ## Why Better Flags?
 
@@ -16,6 +16,7 @@ The native LMU Yellow Flag can cover an entire sector or track. Better Flags det
 - Double Yellow for clustered incidents
 - Slow-car White Flag detection
 - Configurable Green at race start and after passing a local Yellow
+- Configurable Double Yellow and expert speed thresholds with safety lock and contextual help
 
 ## Installation
 
