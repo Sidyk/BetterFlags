@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.3",
-  "sha256": "D433FC2CBD3ACDD32F252BCEAF62A81042E8EEA117CE9FF5A744496F265AF81D",
-  "changelog": "Automatic verified Update & Restart support with an embedded updater, rollback protection, and manual-download fallback."
+  "version": "1.0.4",
+  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.4",
+  "sha256": "62E45D3450B8BF83FC7B1ABB143FB7C83F507444EB8819CB5503FC724E80E8CE",
+  "changelog": "Immediate contextual help tooltips for Yellow/White sampling, estimated reaction times, and detection/display distances."
 }

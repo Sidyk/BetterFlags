@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4 — 2026-08-22
+
+- Added immediate contextual help tooltips for Yellow and White sample intervals.
+- Added help tooltips for required sample counts and estimated reaction times.
+- Added help tooltips for track scan, Yellow display and White display distances.
+
 ## 1.0.3 — 2026-08-22
 
 - Replaced the manual Download action with `Update & Restart` when the update manifest includes SHA-256.

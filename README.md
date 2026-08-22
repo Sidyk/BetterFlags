@@ -2,9 +2,9 @@
 
 A lightweight SimHub plugin that provides reliable, LED-ready flag states for **Le Mans Ultimate**.
 
-**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.3)**
+**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.4)**
 
-Current version: **1.0.3** — [changelog](CHANGELOG.md)
+Current version: **1.0.4** — [changelog](CHANGELOG.md)
 
 ## Why Better Flags?
 
