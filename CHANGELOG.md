@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 — 2026-08-22
+
+- Expert-setting help tooltips now appear immediately on hover.
+- Expanded the hover target to the complete `?` badge and added a help cursor.
+
 ## 1.0.1 — 2026-08-22
 
 - Added editable Double Yellow cluster distance.

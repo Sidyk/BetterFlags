@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
-  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.1",
-  "changelog": "Editable Double Yellow and expert detection thresholds, protected by an unlock checkbox, with contextual help tooltips."
+  "version": "1.0.2",
+  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.2",
+  "changelog": "Help tooltips now appear immediately when hovering over an expert setting question mark."
 }
