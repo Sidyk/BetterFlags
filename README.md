@@ -52,6 +52,4 @@ Network errors never prevent the flag detector from running.
 
 ## Support
 
-Created by **Sidyk**.
-
 [Support via PayPal](https://www.paypal.com/paypalme/MrSIdyk)
