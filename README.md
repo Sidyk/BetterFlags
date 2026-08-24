@@ -29,7 +29,7 @@ Better Flags scans up to 30 cars in their physical order ahead on track. Pit and
 Default behavior:
 
 - cars are scanned up to **1000 m** ahead
-- Yellow is displayed within **600 m**
+- Yellow is displayed within **400 m**
 - White is displayed within **400 m**
 - two Yellow incidents within **100 m** produce Double Yellow
 - Yellow confirmation takes approximately **1 second**
