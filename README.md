@@ -31,7 +31,7 @@ Default behavior:
 - cars are scanned up to **1000 m** ahead
 - Yellow is displayed within **400 m**
 - White is displayed within **400 m**
-- two Yellow incidents within **100 m** produce Double Yellow
+- two Yellow incidents within **50 m** produce Double Yellow
 - Yellow confirmation takes approximately **1 second**
 - White confirmation takes approximately **6 seconds**
 - Green after passing Yellow remains active for **3 seconds**
