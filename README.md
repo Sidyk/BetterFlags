@@ -121,7 +121,7 @@ No additional libraries are required beyond a normal SimHub installation.
 
 ## Updates and network access
 
-The plugin checks this repository's `version.json` once at startup. When a verified update is available, **Update & Restart** downloads the DLL, validates its SHA-256 checksum and assembly version, installs it with rollback protection and restarts SimHub.
+The plugin checks this repository's `version.json` once at startup and shows a one-time notification when a newer version is available. **Update & Restart** downloads the DLL, validates its SHA-256 checksum and assembly version, installs it with rollback protection and restarts SimHub.
 
 Better Flags performs only two types of network request:
 

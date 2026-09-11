@@ -11,6 +11,7 @@
 - Added editable Flag Display distances and durations with clearer tooltips.
 - Updated the plugin menu icon and refreshed the default settings.
 - Marked Slow Car, Last Lap and Enhanced Blue Awareness as testing or experimental features.
+- Added a one-time startup notification when a plugin update is available.
 
 ## 1.0.5
 
