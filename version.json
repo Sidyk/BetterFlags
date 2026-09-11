@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1-r2",
-  "sha256": "6DF0A2DAC9918B0D456947A492784E5B24ACF7AAB68607C04424A2F2C9E010ED",
+  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1-r3",
+  "sha256": "1CF31C75CF778859764BB7FBAF172254B0EC4D805818D41D88A1DAB79975402B",
   "changelog": "Added iFlag LED Profile integration, Enhanced Blue Awareness, improved timed-race flags, and a redesigned settings interface."
 }
