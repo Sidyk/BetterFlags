@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1
+
+- Added the installable iFlag 8×8 RGB Matrix profile with animated flag previews.
+- Added automatic iFlag profile updates with backups and stable profile assignments.
+- Added actions to restore the previous profile or return to native SimHub flag conditions.
+- Added Enhanced Blue Awareness for faster-class traffic approaching from behind during races.
+- Improved Last Lap and Checkered detection for timed races.
+- Reorganized the settings menu into Flag Settings and iFlag Profile views.
+- Added editable Flag Display distances and durations with clearer tooltips.
+- Updated the plugin menu icon and refreshed the default settings.
+- Marked Slow Car, Last Lap and Enhanced Blue Awareness as testing or experimental features.
+
 ## 1.0.5
 
 - Added `LMUFlags.LastLap` for timed races.

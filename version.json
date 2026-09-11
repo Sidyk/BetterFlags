@@ -1,6 +1,6 @@
 {
-  "version": "1.0.5",
-  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.0.5",
-  "sha256": "56A112EAE62E709C8AFD98DEA68A00F1E2B7F85696C1B544FF0D125737562A9B",
-  "changelog": "Added reliable Last Lap and Checkered flags for timed races, including overall-leader finish tracking and telemetry-dropout protection."
+  "version": "1.1",
+  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1",
+  "sha256": "32A1479B35350AFC7F0B468405094A0E42BCF9F6DC2E0C059A4599717A2343E8",
+  "changelog": "Added iFlag LED Profile integration, Enhanced Blue Awareness, improved timed-race flags, and a redesigned settings interface."
 }
