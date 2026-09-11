@@ -2,7 +2,7 @@
 
 Better Flags is a lightweight SimHub plugin that provides reliable, LED-ready flag states for **Le Mans Ultimate**. It is designed for dashboards, flag displays, RGB matrices and other SimHub profiles that need clear `0/1` outputs instead of broad or inconsistent in-game warnings.
 
-**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1)**
+**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1-r2)**
 
 Current version: **1.1** — [changelog](CHANGELOG.md)
 
@@ -111,7 +111,7 @@ The profile installer:
 
 ## Installation
 
-1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1).
+1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1-r2).
 2. Close SimHub.
 3. Copy the DLL to `C:\Program Files (x86)\SimHub`.
 4. If Windows blocks the file, open its **Properties** and select **Unblock**.
