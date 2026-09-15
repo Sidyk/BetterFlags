@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1-r3",
-  "sha256": "1CF31C75CF778859764BB7FBAF172254B0EC4D805818D41D88A1DAB79975402B",
-  "changelog": "Added iFlag LED Profile integration, Enhanced Blue Awareness, improved timed-race flags, and a redesigned settings interface."
+  "version": "1.1.0.1",
+  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.1",
+  "sha256": "C18292FEFD5C262A9639F6E7A1C97627DC2C46AB588D5FC62F0F4E23226E1E2C",
+  "changelog": "Fixed Last Lap prediction when the race timer expires during the lap about to begin."
 }

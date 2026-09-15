@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0.1
+
+- Fixed Last Lap prediction when the race timer will expire during the lap about to begin.
+- Last Lap now appears before the relevant start/finish crossing and remains visible for the configured duration afterward.
+
 ## 1.1
 
 - Added the installable iFlag 8×8 RGB Matrix profile with animated flag previews.
