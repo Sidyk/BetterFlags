@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0.2
+
+- Reworked timed-race Last Lap prediction around the overall leader, recent representative lap times and finish-order uncertainty.
+- Separated Checkered activation from Last Lap predictions to prevent a forecast from authorizing an early finish flag.
+- Preserved finish history across temporary telemetry interruptions and added finish diagnostics.
+- Added EXPORT IFLAG PROFILE with a save dialog for the bundled SimHub LED profile.
+- Added a Discord button to the plugin footer.
+- Slow Car, Last Lap and Enhanced Blue Awareness remain in testing.
+
 ## 1.1.0.1
 
 - Fixed Last Lap prediction when the race timer will expire during the lap about to begin.

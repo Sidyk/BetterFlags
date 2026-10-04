@@ -2,9 +2,9 @@
 
 Better Flags is a lightweight SimHub plugin that provides reliable, LED-ready flag states for **Le Mans Ultimate**. It is designed for dashboards, flag displays, RGB matrices and other SimHub profiles that need clear `0/1` outputs instead of broad or inconsistent in-game warnings.
 
-**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.1)**
+**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.2)**
 
-Current version: **1.1.0.1** — [changelog](CHANGELOG.md)
+Current version: **1.1.0.2** — [changelog](CHANGELOG.md)
 
 ## What it does
 
@@ -46,16 +46,17 @@ Only the highest-priority color flag is exposed at a time. `LastLap` and `Checke
 
 > **Testing:** Last Lap is still being validated across different timed-race formats and track lengths.
 
-For timed Race sessions, Better Flags predicts whether the session timer will expire before the player's next start/finish crossing. `LMUFlags.LastLap` activates only when the final lap is actually about to begin, preventing the warning from appearing one lap too early.
+For timed Race sessions, Better Flags compares the overall leader's predicted finish with the player's upcoming start/finish crossings. It uses recent representative lap times and timing-based track progress, with an uncertainty range. Predictions are revised as the leader and pace change. Last Lap is an estimate: ambiguous or missing data can delay or suppress the warning.
 
 Last Lap behavior:
 
 - it can activate within **300 m** of the start/finish line
-- it remains active until the player crosses the line to begin the final lap
+- a consistent prediction remains active until the player crosses the line to begin the predicted final lap
 - it stays active for another **4 seconds** after that crossing
-- it cannot retrigger during the same final lap
+- notifications are tracked per lap; a revised prediction may identify a different final lap
+- brief telemetry gaps preserve the race history, while unavailable data hide the output
 
-`LMUFlags.Checkered` activates within **300 m** of the finish at the end of the final lap and remains active after the player crosses the line. For cars running behind the overall leader, the plugin tracks the leader by stable vehicle ID and uses LMU's finish status so the Checkered Flag can still appear at the player's correct next finish. It resets only after returning to the garage or changing/resetting the session.
+`LMUFlags.Checkered` is independent of the Last Lap prediction. For a player behind the overall leader, a confirmed leader finish enables Checkered within the configured distance (default **300 m**). If the player leads, the race timer must have actually expired. The player's own finished status also activates Checkered, even when confirmation arrives at the line. It remains active after finishing and clears on returning to the garage or a session reset. Finish decisions are recorded in the SimHub log for troubleshooting.
 
 ## Features currently in testing
 
@@ -108,10 +109,11 @@ The profile installer:
 - updates the installed profile automatically when its embedded definition changes
 - preserves the user's Gear, native Flags and Spotter Overlay enable/disable choices
 - can restore the previous backup or switch the profile to native SimHub flags only
+- provides **EXPORT IFLAG PROFILE** to save the bundled profile as a `.ledsprofile` file at a chosen location, even before installation
 
 ## Installation
 
-1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.1).
+1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.2).
 2. Close SimHub.
 3. Copy the DLL to `C:\Program Files (x86)\SimHub`.
 4. If Windows blocks the file, open its **Properties** and select **Unblock**.
@@ -131,5 +133,7 @@ Better Flags performs only two types of network request:
 Network failures never stop flag detection from running.
 
 ## Support
+
+[Join Discord](https://discord.com/invite/hf6hjW5jpz)
 
 [Support via PayPal](https://www.paypal.com/paypalme/MrSIdyk)
