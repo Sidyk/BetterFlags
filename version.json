@@ -1,6 +1,6 @@
 {
   "version": "1.1.0.3",
-  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.3",
-  "sha256": "04BB2F237C8E1E34B9C9077B6FFF88E1C7DC23710A0AFB287DC239624596E1AA",
-  "changelog": "HOTFIX: Enhanced Blue no longer stays active when faster-class traffic falls back. Releases after more than 0.8 s behind for 2 s plus the existing short hold; rechecks range and telemetry. Native Blue and other flags unchanged."
+  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.3&build=36647B97",
+  "sha256": "36647B97AB2D0237B0B1C05B5621DC6175A93478507C45DD6C3B5B468FAB3F4E",
+  "changelog": "HOTFIX: Enhanced Blue no longer stays active when faster-class traffic falls back. Releases after more than 0.8 s behind for 2 s plus the existing short hold; rechecks range and telemetry. Native Blue and other flags unchanged. Enhanced Blue is enabled once on first start with this hotfix; later manual choices are preserved."
 }

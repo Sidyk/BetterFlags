@@ -2,7 +2,7 @@
 
 Better Flags is a lightweight SimHub plugin that provides reliable, LED-ready flag states for **Le Mans Ultimate**. It is designed for dashboards, flag displays, RGB matrices and other SimHub profiles that need clear `0/1` outputs instead of broad or inconsistent in-game warnings.
 
-**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.3)**
+**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.3&build=36647B97)**
 
 Current version: **1.1.0.3** — [changelog](CHANGELOG.md)
 
@@ -60,6 +60,8 @@ Last Lap behavior:
 
 ## Features currently in testing
 
+On the first start with the updated 1.1.0.3 hotfix, Enhanced Blue Awareness is enabled once, including for users who previously disabled it. This migration is saved immediately. You can turn it off again; later starts respect your choice.
+
 - **Slow Car / White Flag** detects a confirmed, significantly slower moving car ahead. Its confirmation and display thresholds can be tuned in the plugin settings.
 - **Last Lap** predicts the final lap of timed races and may still need adjustment for unusual race formats.
 - **Enhanced Blue Awareness (experimental)** supplements the official LMU Blue Flag during races. It warns when faster-class traffic on the same or fewer completed laps reaches 0.8 seconds behind the player within a 500 m scan range. If the car falls back beyond 0.8 seconds for 2 seconds, its warning is released with the existing approximately 1-second hold. Cars that pass, disappear, enter the pits or leave the scan range also stop being tracked. Eligible cars can trigger again when they return within 0.8 seconds. The native Blue Flag continues to work normally.
@@ -113,7 +115,7 @@ The profile installer:
 
 ## Installation
 
-1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.3).
+1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.3&build=36647B97).
 2. Close SimHub.
 3. Copy the DLL to `C:\Program Files (x86)\SimHub`.
 4. If Windows blocks the file, open its **Properties** and select **Unblock**.

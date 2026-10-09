@@ -2,6 +2,7 @@
 
 ## 1.1.0.3 — HOTFIX
 
+- Re-enable Enhanced Blue Awareness once when this hotfix is first loaded; later manual choices remain saved across restarts.
 - Fixed Enhanced Blue Awareness remaining active after a faster-class car fell behind or crashed.
 - A tracked car now releases its warning after staying more than 0.8 seconds behind for 2 seconds, followed by the existing approximately 1-second release hold.
 - Recheck the 500 m scan range and valid telemetry for tracked cars; remove cars that pass, disappear or enter the pits.
