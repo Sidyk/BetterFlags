@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0.3 — HOTFIX
+
+- Fixed Enhanced Blue Awareness remaining active after a faster-class car fell behind or crashed.
+- A tracked car now releases its warning after staying more than 0.8 seconds behind for 2 seconds, followed by the existing approximately 1-second release hold.
+- Recheck the 500 m scan range and valid telemetry for tracked cars; remove cars that pass, disappear or enter the pits.
+- Reactivate when eligible traffic returns within 0.8 seconds; another nearby car can still keep the warning active.
+- Native Blue and the other flag algorithms are unchanged.
+
 ## 1.1.0.2
 
 - Reworked timed-race Last Lap prediction around the overall leader, recent representative lap times and finish-order uncertainty.
