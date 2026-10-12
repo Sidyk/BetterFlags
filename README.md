@@ -2,9 +2,9 @@
 
 Better Flags is a lightweight SimHub plugin that provides reliable, LED-ready flag states for **Le Mans Ultimate**. It is designed for dashboards, flag displays, RGB matrices and other SimHub profiles that need clear `0/1` outputs instead of broad or inconsistent in-game warnings.
 
-**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.3&build=36647B97)**
+**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.4&build=471CCB22)**
 
-Current version: **1.1.0.3** — [changelog](CHANGELOG.md)
+Current version: **1.1.0.4** — [changelog](CHANGELOG.md)
 
 ## What it does
 
@@ -68,6 +68,8 @@ On the first start with the updated 1.1.0.3 hotfix, Enhanced Blue Awareness is e
 
 ## SimHub properties
 
+Enhanced Blue recognizes `HY`, `Hyper`, `Hypercar`, `LMH` and `LMDH` as the fastest class, followed by LMP2 (including `ELMS_LMP2`), LMP3 and GT3/GTE. Class-name matching is case-insensitive.
+
 | Property | Values | Meaning |
 |---|---:|---|
 | `LMUFlags.Yellow` | `0`, `1`, `2` | Clear, single Yellow, or Double Yellow |
@@ -115,7 +117,7 @@ The profile installer:
 
 ## Installation
 
-1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.3&build=36647B97).
+1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.4&build=471CCB22).
 2. Close SimHub.
 3. Copy the DLL to `C:\Program Files (x86)\SimHub`.
 4. If Windows blocks the file, open its **Properties** and select **Unblock**.

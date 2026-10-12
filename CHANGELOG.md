@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0.4 — HOTFIX
+
+- Added recognition of the SimHub class names HY and Hyper for Enhanced Blue Awareness, alongside Hypercar, LMH and LMDH.
+- Faster-class traffic using these names can now trigger the warning behind LMP2 on the same lap or fewer completed laps.
+- Activation and release thresholds are unchanged.
+
 ## 1.1.0.3 — HOTFIX
 
 - Re-enable Enhanced Blue Awareness once when this hotfix is first loaded; later manual choices remain saved across restarts.
