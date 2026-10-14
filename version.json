@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0.4",
-  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.4&build=471CCB22",
-  "sha256": "471CCB22173053425A4F221CA4B3E5A0B90EE7623499A0D41C03661848437592",
-  "changelog": "HOTFIX: Enhanced Blue Awareness now recognizes HY and Hyper class names from SimHub, alongside Hypercar, LMH and LMDH. Activation and release thresholds are unchanged."
+  "version": "1.1.0.5",
+  "downloadUrl": "https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.5&build=DF87CA59",
+  "sha256": "DF87CA59ABEBB21513A390D675FF65F462B4E0B5D2773BCE89EFD6FDF0D9C3E4",
+  "changelog": "HOTFIX: Enhanced Blue requires a shrinking physical gap before activation within 0.8 seconds behind, preventing warnings after passing a stationary faster-class car. Once activated, it remains active within 0.8 seconds without requiring continued closing. Existing release delays and native Blue are unchanged."
 }

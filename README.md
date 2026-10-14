@@ -2,9 +2,9 @@
 
 Better Flags is a lightweight SimHub plugin that provides reliable, LED-ready flag states for **Le Mans Ultimate**. It is designed for dashboards, flag displays, RGB matrices and other SimHub profiles that need clear `0/1` outputs instead of broad or inconsistent in-game warnings.
 
-**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.4&build=471CCB22)**
+**[Download BetterFlags.dll](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.5&build=DF87CA59)**
 
-Current version: **1.1.0.4** — [changelog](CHANGELOG.md)
+Current version: **1.1.0.5** — [changelog](CHANGELOG.md)
 
 ## What it does
 
@@ -66,6 +66,8 @@ On the first start with the updated 1.1.0.3 hotfix, Enhanced Blue Awareness is e
 - **Last Lap** predicts the final lap of timed races and may still need adjustment for unusual race formats.
 - **Enhanced Blue Awareness (experimental)** supplements the official LMU Blue Flag during races. It warns when faster-class traffic on the same or fewer completed laps reaches 0.8 seconds behind the player within a 500 m scan range. If the car falls back beyond 0.8 seconds for 2 seconds, its warning is released with the existing approximately 1-second hold. Cars that pass, disappear, enter the pits or leave the scan range also stop being tracked. Eligible cars can trigger again when they return within 0.8 seconds. The native Blue Flag continues to work normally.
 
+Before activation, Enhanced Blue also confirms a shrinking physical gap over an observation interval of at least **200 ms**, without a minimum closing-speed threshold. Being nearby alone is not enough. Once activated, the warning stays active within **0.8 seconds** even if the car temporarily stops closing, such as through a corner. Missing or stale approach history must be established again before a new activation.
+
 ## SimHub properties
 
 Enhanced Blue recognizes `HY`, `Hyper`, `Hypercar`, `LMH` and `LMDH` as the fastest class, followed by LMP2 (including `ELMS_LMP2`), LMP3 and GT3/GTE. Class-name matching is case-insensitive.
@@ -117,7 +119,7 @@ The profile installer:
 
 ## Installation
 
-1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.4&build=471CCB22).
+1. [Download `BetterFlags.dll`](https://raw.githubusercontent.com/Sidyk/BetterFlags/main/BetterFlags.dll?v=1.1.0.5&build=DF87CA59).
 2. Close SimHub.
 3. Copy the DLL to `C:\Program Files (x86)\SimHub`.
 4. If Windows blocks the file, open its **Properties** and select **Unblock**.

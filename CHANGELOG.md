@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0.5 — HOTFIX
+
+- Enhanced Blue now requires a shrinking physical gap over an observation interval of at least 200 ms before activation within 0.8 seconds behind.
+- Prevents passing a stationary faster-class car from triggering Enhanced Blue merely because it is nearby.
+- Once activated, the warning remains active within 0.8 seconds even if the car temporarily stops closing; existing release delays remain unchanged.
+- Native Blue and other flag logic are unchanged.
+
 ## 1.1.0.4 — HOTFIX
 
 - Added recognition of the SimHub class names HY and Hyper for Enhanced Blue Awareness, alongside Hypercar, LMH and LMDH.
